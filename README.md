@@ -27,3 +27,4 @@
  4 x AA 1.2V rechargable batteries
  2WD smart car chassis
  
+ 
