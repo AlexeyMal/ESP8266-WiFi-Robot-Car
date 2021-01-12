@@ -13,15 +13,15 @@ int DIR_A = D3;
 int DIR_B = D4;
 
 const int buzPin = D5;      // set digital pin D5 as buzzer pin (use active buzzer)
-const int ledPin = D0; //D8;      // set digital pin D8 as LED pin (use super bright LED)
+const int ledPin = D8; //D0; //D8;      // set digital pin D8 as LED pin (use super bright LED)
 //const int wifiLedPin = D0;  // set digital pin D0 as indication, the LED turn on if NodeMCU connected to WiFi as STA mode
 // ultrasonic setup:
 const int trigPin = D6; // trig pin connected to Arduino's pin D6
 const int echoPin = D7; // echo pin connected to Arduino's pin D7
 //IR Sensor setup:
 const int irRightPin = A0;  // signal right IR sensor 
-const int irCenterPin = 3; //RX; // signal center IR sensor
-const int irLeftPin = D8; //D0;   // signal left IR sensor 
+const int irCenterPin = 3; //RX; // signal center IR sensor // !!! Disconnect IRSensor before flashing via Serial/USB
+const int irLeftPin = D0; //D8; //D0;   // signal left IR sensor //D8 is bad: Boot fails if pulled HIGH
 boolean stateRightIR = 0;  // state to store irCenterPin irRightPin
 boolean stateCenterIR = 0; // state to store irCenterPin detected
 boolean stateLeftIR = 0;   // state to store irCenterPin irLeftPin
