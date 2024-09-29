@@ -1,6 +1,8 @@
 # ESP8266 WiFi Robot Car
  ESP8266 WiFi Robot Car
 
+ ![](https://github.com/AlexeyMal/ESP8266-WiFi-Robot-Car/blob/main/IMG_20210112_231018.jpg)
+
  The car can be controlled by the App "ESP8266 WiFi Robot Car":
  
  https://play.google.com/store/apps/details?id=com.bluino.esp8266wifirobotcar
